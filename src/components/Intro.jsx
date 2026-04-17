@@ -9,7 +9,7 @@ const introText = {
 
 const Intro = () => {
   return (
-    <section>
+    <section id='intro'>
       <div className='intro__inner'>
         <h2 className='intro__title'>
           {introText.title}
